@@ -1,3 +1,5 @@
+/*Consultorio medico, que dispone de 3 tipo de especialista y que atiende a 8 pacientes por dia*/
+
 alert ("Bienvenidos a nuestro centro de salud");
 const turno = 8;
 function solicitarNombre(){
@@ -15,7 +17,7 @@ function seleccionMedico(){
                 alert("El pediatra lo atenderá en breve");
                 break;
             case"3":
-                alert("El odontólogo lo atenderá en breve");
+                alert("El odontólogo lo atenderá en breve");    
                 break;
             default:
                 alert ("ERROR");
